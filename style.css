@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdf8f5;
+}
+
+.header {
+    background-color: #f5c6d0;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #6b2e3e;
+}
+
+.header p {
+    font-size: 20px;
+    color: #8b4b5e;
+    margin-top: 10px;
+}
+
+.about {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.about h2 {
+    color: #6b2e3e;
+    font-size: 32px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #4a4a4a;
+    line-height: 1.5;
+}
+.services {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    color: #6b2e3e;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.service-item {
+    background-color: #fdf8f5;
+    border: 1px solid #f5c6d0;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.service-item h3 {
+    color: #6b2e3e;
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+
+.service-item p {
+    color: #8b4b5e;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.price {
+    display: inline-block;
+    background-color: #f5c6d0;
+    color: #6b2e3e;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.gallery {
+    background-color: #fdf8f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    color: #6b2e3e;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.03);
+}
+.gallery {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.gallery h2 {
+    color: #6b2e3e;
+    font-size: 32px;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
